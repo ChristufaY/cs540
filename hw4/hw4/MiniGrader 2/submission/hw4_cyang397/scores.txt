@@ -1,0 +1,9 @@
+Test P4
+load_data.txt: test case passed: 20 points
+calc_features.txt: test case passed: 5 points
+calc_features_type1.txt: test case passed: 5 points
+calc_features_type2.txt: test case passed: 5 points
+hac.txt: output mismatch 
+hac_shape.txt: test case passed: 10 points
+imshow_hac.txt: test case passed: 0 points
+Scores (not including manual inspection): 45
