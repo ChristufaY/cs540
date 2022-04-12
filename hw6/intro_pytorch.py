@@ -140,11 +140,10 @@ def predict_label(model, test_images, index):
     class_names = ['T-shirt/top','Trouser','Pullover','Dress','Coat','Sandal','Shirt',
                    'Sneaker','Bag','Ankle Boot']
     model.eval()
-    x, y = test_images[index][0], test_images[index][1]
+    x = test_images[index, 0, :, :].float()
     with torch.no_grad():
-        pred = model(x)
+        pred = model(x.reshape([1, 1, 28, 28]))
         #print(pred)
-        actual = class_names[y]
         prob = F.softmax(pred, dim=1)
         #print(prob)
         res =  torch.argsort(prob, dim=1, descending = True)
@@ -166,7 +165,7 @@ def main():
     train_model(model, train_loader, criterion, 5)
     evaluate_model(model, test_loader, criterion, show_loss = False)
     evaluate_model(model, test_loader, criterion, show_loss = True)
-    predict_label(model, test_loader.dataset, 1)
+    predict_label(model, test_loader.dataset.data.reshape([10000, 1, 28, 28]), 0)
 
 if __name__ == '__main__':
     '''
@@ -174,5 +173,3 @@ if __name__ == '__main__':
     Note that this part will not be graded.
     '''
     main()
-
-
