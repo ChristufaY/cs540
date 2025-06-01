@@ -1,16 +1,18 @@
-# CS540 – Introduction to Artificial Intelligence (Fall 2023)
+# CS540 – Introduction to Artificial Intelligence (Spring 2022)
 
-This repository contains coursework and projects from CS540 at the University of Wisconsin–Madison, covering foundational concepts and techniques in artificial intelligence.
+This repository contains coursework and projects from **CS540 at the University of Wisconsin–Madison**, covering foundational concepts and techniques in artificial intelligence, taught by Professor Sharon Li.
+
+📖 [Course Website](https://pages.cs.wisc.edu/~sharonli/courses/cs540_spring2022/index.html)
 
 ---
 
 ## 🧠 Course Overview
 
-- Fundamentals of AI including search algorithms, knowledge representation, and reasoning
-- Machine learning basics and supervised learning techniques
-- Probabilistic models and inference
-- Planning and decision making under uncertainty
-- Introduction to neural networks and deep learning
+- Fundamentals of AI including search algorithms and game playing
+- Knowledge representation and probabilistic reasoning
+- Machine learning fundamentals: decision trees, Naive Bayes, k-NN, and perceptrons
+- Probabilistic models: Bayesian networks and Hidden Markov Models (HMMs)
+- Applications in decision-making, classification, and sequential prediction
 
 ---
 
@@ -18,53 +20,47 @@ This repository contains coursework and projects from CS540 at the University of
 
 ### 🔹 Search Algorithms
 - Implemented classic AI search techniques: Depth-First Search (DFS), Breadth-First Search (BFS), A* Search
-- Applied heuristic functions for efficient pathfinding
-- Tested on various problem domains including puzzles and grid-based maps
+- Designed heuristic functions for efficient pathfinding
+- Applied algorithms to puzzles and navigation problems
 
-### 🔹 Knowledge Representation & Reasoning
-- Developed rule-based systems for logical inference
-- Explored propositional and first-order logic representations
-- Built inference engines capable of answering queries based on given facts and rules
-
-### 🔹 Machine Learning
-- Implemented supervised learning algorithms including decision trees and k-nearest neighbors (KNN)
-- Applied training and testing on real-world datasets
-- Evaluated model accuracy and overfitting through cross-validation techniques
+### 🔹 Game Playing
+- Developed Minimax and Alpha-Beta Pruning algorithms
+- Created AI agents capable of competitive gameplay decisions
 
 ### 🔹 Probabilistic Reasoning
-- Worked with Bayesian networks and Markov models
-- Performed inference and learning from uncertain data
-- Modeled real-world problems involving probabilistic dependencies
+- Modeled uncertain environments with Bayesian networks
+- Performed inference and decision-making based on probabilistic dependencies
 
-### 🔹 Neural Networks and Deep Learning
-- Built simple feedforward neural networks from scratch
-- Trained models using backpropagation and gradient descent
-- Compared performance on classification tasks
+### 🔹 Machine Learning
+- Implemented supervised learning algorithms: Decision Trees, Naive Bayes, k-Nearest Neighbors, and Perceptrons
+- Trained and tested models on structured datasets
+- Evaluated model accuracy and performance using cross-validation
+
+### 🔹 Hidden Markov Models
+- Implemented the Forward and Viterbi algorithms for sequential data
+- Modeled and predicted hidden state sequences in time series data
 
 ---
 
 ## 💡 Skills and Knowledge Gained
 
-- Applying classical AI search and optimization techniques
-- Representing and reasoning with knowledge in logical formalisms
-- Understanding and implementing fundamental machine learning algorithms
-- Modeling uncertainty with probabilistic frameworks
-- Introductory experience with neural networks and deep learning fundamentals
+- Applied classical AI search and optimization techniques
+- Built AI game agents with strategic decision-making
+- Represented and reasoned with knowledge using probabilistic models
+- Developed supervised learning models from scratch
+- Modeled uncertainty and sequence data with probabilistic frameworks
 
 ---
 
 ## 🛠 Tools and Environment
 
-- Programming Languages: Python
-- Libraries: NumPy, scikit-learn, TensorFlow (basic)
-- Development Environment: Jupyter Notebooks and Python scripts
+- **Programming Language:** Python 3
+- **Libraries:** NumPy (basic usage)
+- **Development Environment:** Command-line Python scripts
 
 ---
 
 ## 📂 Repository Structure
 
-Organized by assignment and project, each directory contains code, reports, and notebooks with explanations and results.
+Organized by assignment, each directory contains source code, problem statements, and outputs where applicable.
 
----
-
-Explore the projects to see implementations, experiments, and insights gained through this foundational AI course.
